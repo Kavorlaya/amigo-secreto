@@ -10,14 +10,24 @@ function ingresoNombre(){
     //en la lista de amigos 
 
     let amigoIngresado = (document.getElementById('amigo').value).toString();
-    return amigoIngresado;
+    return validoIngreso(amigoIngresado);
 }
 
-function validoIngreso(){
-    if (amigoIngresado.trim() == "") {
-        console.log("La cadena está vacía o solo contiene espacios en blanco, intente nuevamente")
+function validoIngreso(amigo){
+    //valido que el campo no esté vacio, si lo está le informo al usuario
+    if (amigo.trim() === "") {
+        alert("Por favor, inserte un nombre");
+        return;
 
+    } else {
+        //caso contrario agrego el nombre ingresado al array de nombres
+        // y limpio el campo de entrada para un nuevo ingreso.
+        amigos.push(amigo);
+        document.getElementById('amigo').value = '';
+        console.log(amigos);
+        return true;
     }
-
-
+    
 }
+
+
