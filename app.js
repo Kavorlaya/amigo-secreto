@@ -3,6 +3,8 @@
 
 //array para almacenar los nombres ingresados por el usuario
 let amigos = [];
+let amigoEnArray = "";
+let listaDeAmigos = (document.getElementById("listaAmigos"));
 
 function ingresoNombre(){
 
@@ -23,11 +25,37 @@ function validoIngreso(amigo){
         //caso contrario agrego el nombre ingresado al array de nombres
         // y limpio el campo de entrada para un nuevo ingreso.
         amigos.push(amigo);
+        //limpio el campo para el ingreso de un nuevo dato
         document.getElementById('amigo').value = '';
         console.log(amigos);
-        return true;
+        //limpio la lista de amigos para que se cargue con las novedades.
+        limpiaListaAmigos();
+        //llamo a la función que recorre el array y carga la lista de amigos en pantalla.
+        return ingresoAmigoALista(amigos);
     }
     
 }
+
+function limpiaListaAmigos(){
+    listaDeAmigos.innerHTML = "";
+}
+
+function ingresoAmigoALista(amigos){
+    let htmlItem = '';
+
+    for (let i = 0; i < amigos.length; i++){
+        htmlItem +=`<li>${amigos[i]} </li>`;
+
+    };
+
+    listaDeAmigos.innerHTML = htmlItem;
+
+}
+
+
+    
+
+    
+
 
 
