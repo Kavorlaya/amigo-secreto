@@ -5,6 +5,8 @@
 let amigos = [];
 let amigoEnArray = "";
 let listaDeAmigos = (document.getElementById("listaAmigos"));
+let amigoSorteado = (document.getElementById("resultado"));
+let indiceAmigo = 0;
 
 function ingresoNombre(){
 
@@ -49,6 +51,42 @@ function ingresoAmigoALista(amigos){
     };
 
     listaDeAmigos.innerHTML = htmlItem;
+
+}
+
+function validoArrayAmigosVacio(amigos){
+    if (amigos.length === 0){
+        alert("Debe ingresar al menos un amigo")
+        //validoIngreso(amigo);
+    }
+
+}
+//función con la lógica para elegir un elemento del array al azar.
+function generaAmigoAleatorio(amigos){
+
+    let cantidadAmigos = amigos.length;
+    //calculo de una posición aleatoria dentro del array
+    let amigoAleatorio = Math.floor(Math.random() * cantidadAmigos) + 1;
+    console.log(amigoAleatorio);
+    return amigoAleatorio;
+}
+
+function sortearAmigo(){
+    //Valido que se haya cargado al menos una persona
+    validoArrayAmigosVacio(amigos);
+    //cargo una variable con el amigo que surja de llamar al generador aleatorio.
+    amigoAleatorio = generaAmigoAleatorio(amigos);
+    //llamo a la función que se encarga de mostrar el resultado por pantalla
+    return mostrarAmigo(amigoAleatorio);
+}
+
+function mostrarAmigo(amigoAleatorio){
+
+    let htmlItem = "";
+    //guardo el índice de la posición en donde está el amigo que salió sorteado.
+    let indiceAmigoenArray = amigos[amigoAleatorio - 1];
+    htmlItem = `<li>${indiceAmigoenArray}</li>`;
+    amigoSorteado.innerHTML = htmlItem; 
 
 }
 
