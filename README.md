@@ -4,7 +4,7 @@
   
   ![GitHub License](https://img.shields.io/github/license/Kavorlaya/amigo-secreto)
   
-  ![Badge en Desarollo](https://img.shields.io/badge/STATUS-FINALIZADO-blue)
+  ![Badge status](https://img.shields.io/badge/STATUS-FINALIZADO-blue)
   ![GitHub Forks](https://img.shields.io/github/forks/Kavorlaya/amigo-secreto)
   ![GitHub Stars](https://img.shields.io/github/stars/Kavorlaya/amigo-secreto)
 
