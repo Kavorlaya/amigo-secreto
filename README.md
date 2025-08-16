@@ -48,7 +48,15 @@ Una vez descomprimido hacer click en (nombre del archivo)
 Utilizarlo.
 
 ---  
-## :heavy_check_mark: Tecnologías utilizadas
+## :heavy_check_mark: Tecnologías utilizadas  
+- HTML
+- JavaScript
+- CSS
+
+---  
+## Autor  
+<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Diego Persi</sub>
+
 
 
 
