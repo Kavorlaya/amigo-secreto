@@ -15,7 +15,6 @@
 
 ---  
 ## Indice
-
 - [Características de la Aplicación](#caracteristicas-de-la-aplicacion)
 - [Demostración](#demostracion)
 - [Tecnologías Utilizadas](#tecnologias-utilizadas)
@@ -25,7 +24,6 @@
 
 ---  
 ## Características de la aplicación
-
 - **Ingreso de personas:** Permite añadir un número ilimitado de personas a la lista a sortear.  
 - **Sorteo aleatorio:** Para el sorteo, se seleccionará de la lista a una persona al azar.  
 - **Validaciones:** Impide sorteos con la lista vacía y también el ingreso de nombres en blanco.
