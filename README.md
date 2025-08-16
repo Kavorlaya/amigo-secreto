@@ -25,7 +25,7 @@
 - **Sorteo aleatorio:** Para el sorteo, se seleccionará de la lista a una persona al azar.
 - **Validaciones:** Impide sorteos con la lista vacía y también el ingreso de nombres en blanco.
 
-**Observaciones adicionales:** Si deseas realizar un nuevo nuevo, simplemente refresca la página (F5).
+**Observaciones adicionales:** Si deseas realizar un nuevo sorteo, simplemente refresca la página (F5).
 
 ---
 
