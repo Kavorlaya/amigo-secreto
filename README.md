@@ -34,7 +34,7 @@ https://github.com/user-attachments/assets/ddf6a2dc-d526-4538-a9e1-4d6735316da3
 
 ---
 
-## Tecnologías Utilizadas
+## Tecnologias Utilizadas
 - HTML
 - JavaScript
 - CSS
