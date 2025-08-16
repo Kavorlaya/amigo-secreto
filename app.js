@@ -56,28 +56,33 @@ function ingresoAmigoALista(amigos){
 
 function validoArrayAmigosVacio(amigos){
     if (amigos.length === 0){
-        alert("Debe ingresar al menos un amigo")
-        //validoIngreso(amigo);
-    }
-
+        alert("Debe ingresar al menos un amigo");
+        return true; //retorna true debido a que efectivamente está el array vacio
+        }else {
+            return false //el array esta cargado
+        };
 }
+                
 //función con la lógica para elegir un elemento del array al azar.
 function generaAmigoAleatorio(amigos){
-
     let cantidadAmigos = amigos.length;
-    //calculo de una posición aleatoria dentro del array
+    //cálculo de una posición aleatoria dentro del array
     let amigoAleatorio = Math.floor(Math.random() * cantidadAmigos) + 1;
     console.log(amigoAleatorio);
     return amigoAleatorio;
 }
 
 function sortearAmigo(){
-    //Valido que se haya cargado al menos una persona
-    validoArrayAmigosVacio(amigos);
-    //cargo una variable con el amigo que surja de llamar al generador aleatorio.
-    amigoAleatorio = generaAmigoAleatorio(amigos);
-    //llamo a la función que se encarga de mostrar el resultado por pantalla
-    return mostrarAmigo(amigoAleatorio);
+    //Valido si se hace o no el sorteo, en función del flag de la función que
+    //valida el array vacio
+    if(validoArrayAmigosVacio(amigos)){
+        return; //no hago nada ya que el array está vacio.
+    }else{
+        //cargo una variable con el amigo que surja de llamar al generador aleatorio.
+        amigoAleatorio = generaAmigoAleatorio(amigos);
+        //llamo a la función que se encarga de mostrar el resultado por pantalla
+        return mostrarAmigo(amigoAleatorio);
+    }
 }
 
 function mostrarAmigo(amigoAleatorio){
@@ -85,7 +90,7 @@ function mostrarAmigo(amigoAleatorio){
     let htmlItem = "";
     //guardo el índice de la posición en donde está el amigo que salió sorteado.
     let indiceAmigoenArray = amigos[amigoAleatorio - 1];
-    htmlItem = `<li>${indiceAmigoenArray}</li>`;
+    htmlItem = `<li>El amigo secreto es: ${indiceAmigoenArray}</li>`;
     amigoSorteado.innerHTML = htmlItem; 
 
 }
