@@ -13,6 +13,7 @@
 - [Conclusión](#conclusión)
 
 ---  
+
 <div align="center">
   <p>
     Aplicación que permite realizar sorteos aleatorios
@@ -22,48 +23,38 @@
   ![GitHub License](https://img.shields.io/github/license/Kavorlaya/amigo-secreto)
   ![GitHub Forks](https://img.shields.io/github/forks/Kavorlaya/amigo-secreto)
   ![GitHub Stars](https://img.shields.io/github/stars/Kavorlaya/amigo-secreto)
-</div>
-
-
-<div align="center">  
----
-
-## Estado del proyecto:
-Se encuentra finalizado pero abierto a cualquier aporte o sugerencia de mejora.
-
----
+</div>  
+---  
 
 ## :hammer:Características de la aplicación y demostración:  
 
-Es un programa que permite ingresar una lista de personas (la cantidad la determinará el usuario).  
-Cada persona se añadirá cuando se haga click en el botón "Añadir".  
-Luego, haciendo click en el botón "Sortear amigo" se elegirá al azar un amigo de dicho sorteo y se mostrará por pantalla la persona que resultó elegida.  
+- **Ingreso de personas:** Permite añadir un número ilimitado de personas a la lista a sortear.  
+- **Sorteo aleatorio:** Para el sorteo, se seleccionará de la lista a una persona al azar.  
+- **Validaciones:** Impide sorteos con la lista vacía y también el ingreso de nombres en blanco.
 
-- `Ingreso de personas`: Se ingresará la cantidad de personas que se desee para realizar el sorteo
-- `Sorteo de persona`: Se elegirá de forma aleatoria una persona de las ingresadas en el paso anterior.
+<br>  
 
-### :warning:Observaciones adicionales:  
-No se podrá realizar el sorteo si no se a añadido previamente al menos una persona.  
-No se podrá añadir una persona si el campo para ello se encuentra vacío.  
-Si se quisiera realizar un nuevo sorteo, deberá refrescar la página con el icono correspondiente en el navegador, o apretando la tecla F5
-
-## :movie_camera: Ejemplo visual del proyecto:  
-https://github.com/user-attachments/assets/ddf6a2dc-d526-4538-a9e1-4d6735316da3
-
+**:warning:Observaciones adicionales:** Si deseas realizar un nuevo sorteo, simplemente refresca la página (F5).
 
 ---
 
-## Instalación
-No requiere instalación previa, simplemente es descargar el directorio que contiene el programa.
-Guardarlo en la ubicación que desee y descomprimirlo.
-Una vez descomprimido hacer click en (nombre del archivo)
-Utilizarlo.
+## Demostración  
+
+https://github.com/user-attachments/assets/ddf6a2dc-d526-4538-a9e1-4d6735316da3  
 
 ---  
+
 ## :heavy_check_mark: Tecnologías utilizadas  
 - HTML
 - JavaScript
 - CSS
+---  
+
+## Instalación y uso  
+
+1. Descargar el repositorio y descomprimirlo.
+2. Abrir el archivo `index.html` en el navegador.
+3. Empezar a usar la aplicación.
 
 ---  
 ## Autor  
@@ -77,6 +68,27 @@ Utilizarlo.
 
 
   <img align="center" width="512" height="512" alt="Gemini_Generated_Image_pm3k7wpm3k7wpm3k" src="https://github.com/user-attachments/assets/08c187c3-3105-4acc-8d5b-a3a548b819e6" />
-</div>
+</div>  
+
+---  
+
+## Estado del proyecto:
+Se encuentra finalizado pero abierto a cualquier aporte o sugerencia de mejora.
+
+---  
+
+---
+
+## Instalación
+No requiere instalación previa, simplemente es descargar el directorio que contiene el programa.
+Guardarlo en la ubicación que desee y descomprimirlo.
+Una vez descomprimido hacer click en (nombre del archivo)
+Utilizarlo.
+
+ 
+
+
+---  
+
 
 
