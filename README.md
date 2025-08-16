@@ -35,7 +35,6 @@
 ---
 
 ## Demostración
-
 https://github.com/user-attachments/assets/ddf6a2dc-d526-4538-a9e1-4d6735316da3  
 
 ---  
@@ -47,7 +46,6 @@ https://github.com/user-attachments/assets/ddf6a2dc-d526-4538-a9e1-4d6735316da3
 ---  
 
 ## Instalación y uso
-
 1. Descargar el repositorio y descomprimirlo.
 2. Abrir el archivo `index.html` en el navegador.
 3. Empezar a usar la aplicación.
