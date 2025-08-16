@@ -34,7 +34,9 @@ Luego, haciendo click en el botón "Sortear amigo" se elegirá al azar un amigo 
 No se podrá realizar el sorteo si no se a añadido previamente al menos una persona.  
 No se podrá añadir una persona si el campo para ello se encuentra vacío.  
 Si se quisiera realizar un nuevo sorteo, deberá refrescar la página con el icono correspondiente en el navegador, o apretando la tecla F5
- 
+
+## :movie_camera:Video mostrando dichas funcionalidades:  
+https://github.com/user-attachments/assets/ddf6a2dc-d526-4538-a9e1-4d6735316da3
 
 
 ---
