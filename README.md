@@ -35,7 +35,7 @@ No se podrá realizar el sorteo si no se a añadido previamente al menos una per
 No se podrá añadir una persona si el campo para ello se encuentra vacío.  
 Si se quisiera realizar un nuevo sorteo, deberá refrescar la página con el icono correspondiente en el navegador, o apretando la tecla F5
 
-## :movie_camera:Video mostrando dichas funcionalidades:  
+## :movie_camera: Ejemplo visual del proyecto:  
 https://github.com/user-attachments/assets/ddf6a2dc-d526-4538-a9e1-4d6735316da3
 
 
@@ -47,7 +47,8 @@ Guardarlo en la ubicación que desee y descomprimirlo.
 Una vez descomprimido hacer click en (nombre del archivo)
 Utilizarlo.
 
----
+---  
+## :heavy_check_mark: Tecnologías utilizadas
 
 
 
