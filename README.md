@@ -16,15 +16,12 @@
 <div align="center">
   <p>
     Aplicación que permite realizar sorteos aleatorios
-  </p>
-
-<div align="center">
+  </p>  
   
+  ![Badge status](https://img.shields.io/badge/STATUS-FINALIZADO-blue)  
   ![GitHub License](https://img.shields.io/github/license/Kavorlaya/amigo-secreto)
-  ![Badge status](https://img.shields.io/badge/STATUS-FINALIZADO-blue)
   ![GitHub Forks](https://img.shields.io/github/forks/Kavorlaya/amigo-secreto)
   ![GitHub Stars](https://img.shields.io/github/stars/Kavorlaya/amigo-secreto)
-
 </div>
 
 
