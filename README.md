@@ -12,8 +12,23 @@
 - [Licencia](#licencia)
 - [Conclusión](#conclusión)
 
----
+---  
+<div align="center">
+  <p>
+    Aplicación que permite realizar sorteos aleatorios
+  </p>
 
+<div align="center">
+  
+  ![GitHub License](https://img.shields.io/github/license/Kavorlaya/amigo-secreto)
+  ![Badge status](https://img.shields.io/badge/STATUS-FINALIZADO-blue)
+  ![GitHub Forks](https://img.shields.io/github/forks/Kavorlaya/amigo-secreto)
+  ![GitHub Stars](https://img.shields.io/github/stars/Kavorlaya/amigo-secreto)
+
+</div>
+
+
+<div align="center">  
 ---
 
 ## Estado del proyecto:
@@ -55,25 +70,15 @@ Utilizarlo.
 
 ---  
 ## Autor  
-<img src="https://avatars.githubusercontent.com/u/Kavorlaya" width=115><br><sub>Diego Persi</sub>
-
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/71970858?v=4" width=115><br><sub>Ellen Pimentel</sub>]([https://github.com/guilhermeonrails](https://github.com/ellenpimentel)) |  [<img src="https://avatars.githubusercontent.com/u/91544872?v=4" width=115><br><sub>Génesys Rondón</sub>](https://github.com/genesysaluralatam) |
-
-
-
-<h1 align="center"> Aplicación para realizar un Sorteo </h1>
-
 <div align="center">
-  
-  ![GitHub License](https://img.shields.io/github/license/Kavorlaya/amigo-secreto)
-  ![Badge status](https://img.shields.io/badge/STATUS-FINALIZADO-blue)
-  ![GitHub Forks](https://img.shields.io/github/forks/Kavorlaya/amigo-secreto)
-  ![GitHub Stars](https://img.shields.io/github/stars/Kavorlaya/amigo-secreto)
-
+  <a href="https://github.com/Kavorlaya">
+    <img src="https://github.com/Kavorlaya.png" width="200" alt="Foto de perfil" />
+    <br />
+    <span style="font-size:22px;"><b>Diego Nicolás Persi</b></span>
+  </a>
 </div>
 
 
-<div align="center">
   <img align="center" width="512" height="512" alt="Gemini_Generated_Image_pm3k7wpm3k7wpm3k" src="https://github.com/user-attachments/assets/08c187c3-3105-4acc-8d5b-a3a548b819e6" />
 </div>
 
