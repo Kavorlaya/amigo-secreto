@@ -14,8 +14,8 @@
 ---
 ## Índice
 - [Características de la Aplicación](#caracteristicas-de-la-aplicacion)
-- [Demostración](#demostracion)
-- [Tecnologías Utilizadas](#tecnologias-utilizadas)
+- [Demostración](#demostración)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Instalación y Uso](#instalación-y-uso)
 - [Autor](#autor)
 
@@ -29,12 +29,12 @@
 
 ---
 
-## Demostracion
+## Demostración
 https://github.com/user-attachments/assets/ddf6a2dc-d526-4538-a9e1-4d6735316da3
 
 ---
 
-## Tecnologias Utilizadas
+## Tecnologías Utilizadas
 - HTML
 - JavaScript
 - CSS
