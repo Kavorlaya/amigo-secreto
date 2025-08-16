@@ -13,7 +13,7 @@
 
 ---
 ## Índice
-- [Características de la Aplicación](#caracteristicas-de-la-aplicacion)
+- [Características de la Aplicación](#características-de-la-aplicación)
 - [Demostración](#demostración)
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Instalación y Uso](#instalación-y-uso)
