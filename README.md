@@ -16,7 +16,7 @@
 - [Características de la Aplicación](#caracteristicas-de-la-aplicacion)
 - [Demostración](#demostracion)
 - [Tecnologías Utilizadas](#tecnologias-utilizadas)
-- [Instalación y Uso](#instalacion-y-uso)
+- [Instalación y Uso](#instalación-y-uso)
 - [Autor](#autor)
 
 ---
