@@ -1,36 +1,27 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. 
 // Aquí deberás desarrollar la lógica para resolver el problema.
 
-//array para almacenar los nombres ingresados por el usuario
-let amigos = [];
-let amigoEnArray = "";
-let listaDeAmigos = (document.getElementById("listaAmigos"));
-let amigoSorteado = (document.getElementById("resultado"));
-let indiceAmigo = 0;
+let amigos = []; //array para almacenar los nombres ingresados por el usuario
+let amigoEnArray = ""; //va a guardar el amigo elegido en el array
+let listaDeAmigos = (document.getElementById("listaAmigos")); //variable que tendrá el contenido de la lista de amigos
+let amigoSorteado = (document.getElementById("resultado")); //variable que contendrá el amigo elegido en el sorteo
+let indiceAmigo = 0; //variable que tiene el índice del elemento, dentro del array de amigos.
 
-function ingresoNombre(){
-
-    //función donde se va a almacenar el nombre ingresado por el usuario
-    //en la lista de amigos 
+function ingresoNombre(){ //función que almacenará el nombre ingresado por el usuario en el array de amigos 
 
     let amigoIngresado = (document.getElementById('amigo').value).toString();
     return validoIngreso(amigoIngresado);
 }
 
-function validoIngreso(amigo){
-    //valido que el campo no esté vacio, si lo está le informo al usuario
+function validoIngreso(amigo){ //valida que el campo no esté vacio, si lo está le informa al usuario
     if (amigo.trim() === "") {
         alert("Por favor, inserte un nombre");
         return;
 
-    } else {
-        //caso contrario agrego el nombre ingresado al array de nombres
-        // y limpio el campo de entrada para un nuevo ingreso.
+    } else {//Si el campo no está vacio, se agrega el amigo al array y se limpia el campo de entrada para un nuevo ingreso.
         amigos.push(amigo);
-        //limpio el campo para el ingreso de un nuevo dato
         document.getElementById('amigo').value = '';
-        console.log(amigos);
-        //limpio la lista de amigos para que se cargue con las novedades.
+        //console.log(amigos);
         limpiaListaAmigos();
         //llamo a la función que recorre el array y carga la lista de amigos en pantalla.
         return ingresoAmigoALista(amigos);
@@ -42,54 +33,46 @@ function limpiaListaAmigos(){
     listaDeAmigos.innerHTML = "";
 }
 
-function ingresoAmigoALista(amigos){
+function ingresoAmigoALista(amigos){ //recorre con un for la lista y el contenido lo muestra en la página.
     let htmlItem = '';
 
     for (let i = 0; i < amigos.length; i++){
         htmlItem +=`<li>${amigos[i]} </li>`;
-
     };
 
     listaDeAmigos.innerHTML = htmlItem;
 
 }
 
-function validoArrayAmigosVacio(amigos){
+function validoArrayAmigosVacio(amigos){ //valida que no esté vacio el array. De estarlo, no se realiza el sorteo y se avisa al usuario
     if (amigos.length === 0){
         alert("Debe ingresar al menos un amigo");
-        return true; //retorna true debido a que efectivamente está el array vacio
+        return true; //variable de control (flag)
         }else {
-            return false //el array esta cargado
+            return false //variable de control (flag)
         };
 }
                 
-//función con la lógica para elegir un elemento del array al azar.
-function generaAmigoAleatorio(amigos){
-    let cantidadAmigos = amigos.length;
-    //cálculo de una posición aleatoria dentro del array
-    let amigoAleatorio = Math.floor(Math.random() * cantidadAmigos) + 1;
-    console.log(amigoAleatorio);
+function generaAmigoAleatorio(amigos){  //lógica para elegir aleatoriamente el índice del elemento dentro del array de amigos.
+    let cantidadAmigos = amigos.length; //limito los valores que la fórmula debe tomar para elegir.
+    let amigoAleatorio = Math.floor(Math.random() * cantidadAmigos) + 1; 
+    //console.log(amigoAleatorio);
     return amigoAleatorio;
 }
 
-function sortearAmigo(){
-    //Valido si se hace o no el sorteo, en función del flag de la función que
-    //valida el array vacio
-    if(validoArrayAmigosVacio(amigos)){
-        return; //no hago nada ya que el array está vacio.
+function sortearAmigo(){ //realiza la lógica del sorteo
+    if(validoArrayAmigosVacio(amigos)){ //si el flag fue "true" entonces el array está vacio y no se realiza el sorteo.
+        return; 
     }else{
-        //cargo una variable con el amigo que surja de llamar al generador aleatorio.
-        amigoAleatorio = generaAmigoAleatorio(amigos);
-        //llamo a la función que se encarga de mostrar el resultado por pantalla
-        return mostrarAmigo(amigoAleatorio);
+        amigoAleatorio = generaAmigoAleatorio(amigos); //variable que contendrá al amigo que salió en el sorteo
+        return mostrarAmigo(amigoAleatorio); //llamo a la función que tiene que mostrar el resultado en la página.
     }
 }
 
 function mostrarAmigo(amigoAleatorio){
 
     let htmlItem = "";
-    //guardo el índice de la posición en donde está el amigo que salió sorteado.
-    let indiceAmigoenArray = amigos[amigoAleatorio - 1];
+    let indiceAmigoenArray = amigos[amigoAleatorio - 1]; //guardo el índice de la posición donde está el amigo que salió sorteado
     htmlItem = `<li>El amigo secreto es: ${indiceAmigoenArray}</li>`;
     amigoSorteado.innerHTML = htmlItem; 
 
